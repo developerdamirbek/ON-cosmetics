@@ -1,0 +1,122 @@
+footer {
+    background: #000;
+    padding-top: 64px;
+}
+
+.footer_link__wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer_text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.useful_text {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.footer_top {
+    padding-bottom: 53px;
+}
+
+
+.footer_bottom {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.footer_copy_text {
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_logo {
+    color: #FFF;
+}
+
+.footer_social__links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form_list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form_link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.09px;
+}
+
+.form_text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.716px;
+    /* 104.476% */
+    letter-spacing: 0.206px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.footer_form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.form_input {
+    width: 100%;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+    color: #FFF;
+}
+
+.form_btn {
+    color: #FFF;
+    font-size: 12px;
+    border: 1px solid #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-left: 0;
+    background-color: transparent;
+    font-weight: 400;
+    line-height: 13.501px; /* 112.512% */
+    letter-spacing: 0.411px;
+}

@@ -1,0 +1,72 @@
+header {
+    background: transparent;
+    backdrop-filter: blur(4px);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.20);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.navbar_link {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.6px;
+    text-decoration: none;
+
+    &:hover {
+        border-bottom: 1px solid #000;
+    }
+}
+
+.buttons_block {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.select_lang {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+.heart  {
+   color: transparent;
+   cursor: pointer;
+}
+
+.profile{
+    color: transparent;
+    cursor: pointer;
+}
+
+.bag {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 1px solid #000;
+    color: red;
+}

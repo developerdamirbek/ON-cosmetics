@@ -1,0 +1,66 @@
+.brand {
+    background-image: url("../../assets/img/BrandBgImg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand_section2 {
+    margin-top: 64px;
+    margin-bottom: 65px;
+}
+
+.brand_section2_title {
+    padding-bottom: 24px;
+}
+
+.brand_section3 {
+    background: #FCF3F6;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.brand_section3_title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-bottom: 32px;
+    padding-top: 51px;
+}
+
+.brand_section3_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.brand_section3_text {
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding-bottom: 16px;
+
+    span {
+        width: 5px;
+        height: 5px;
+        background-color: #000;
+        border-radius: 50%;
+        display: inline-block;
+    }
+}
+
+
+.brand_section4_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
