@@ -1,0 +1,307 @@
+.bgImage
+{
+    background: url(../../assets/img/Home-heroBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerDiv
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.headerDiv_h1
+{
+    font-weight: 500;
+    color: black;
+    font-size: 24px;
+}
+.headerDiv_h6
+{
+    font-weight: 400;
+    color: black;
+    font-size: 12px;
+}
+.headerBtn
+{
+    display: flex;
+    gap: 20px;
+}
+.skincare
+{
+    background: #000;
+    color: white;
+    height: 35px;
+    width: 90px;
+}
+.shopall
+{
+    border: 1px solid black;
+    height: 35px;
+    width: 90px;
+    background: transparent;
+}
+.sectionDiv
+{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.sectionDiv_h1
+{
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    color: black;   
+}
+.sectionDivcart
+{
+    display: flex;
+    width: 55%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between; 
+}
+.sectionDivcartInner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+}
+.sectionDivcartInner_h6
+{
+    font-weight: 600;
+    color: black;
+    font-size: 10px;
+}
+.sectionDivcartInner_p
+{
+    font-weight: 400;
+    color: black;
+    font-size: 10px;
+}
+.sectionDivcartInner_btn
+{
+    border: 1px solid black;
+    width: 90px;
+    height: 35px;
+    display: flex;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.EthicalBusiness
+{
+    background: #FCF3F6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.EthicalBusiness2
+{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.businessCart
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+.businessCart_h6
+{
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+}
+.businessCart_p
+{
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+.blog
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.blog_h1
+{
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+.blogs
+{
+    display: flex;
+    width: 55%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.blogCart
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 20%;
+
+}
+.blogCart_h6
+{
+    font-weight: 400;
+    color: #000;
+    font-size: 13px;
+}
+.blogCart_p
+{
+    font-weight: 400;
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+}
+.blogCartBtn
+{
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+.help
+{
+    background: #FCF3F6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.help_h2
+{
+    text-align: center;
+    font-weight: 500;
+    color: #000;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.helpDiv
+{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.helpCards
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px;
+}
+.helpCards_h6
+{
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.helpCards_p
+{
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+.instagram
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.instagramFlex
+{
+    display: flex;
+    align-items: center;
+}
+.instagramFlex_h4
+{
+    font-weight: 500;
+    font-size: 24px;
+}
+.insta 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    gap: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.insta40
+{
+    width: 40%;
+    // border: 1px solid black;
+}
+.insta20
+{
+    width: 20%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid black;
+}
+.instaImg
+{
+    width: 100%;
+    height: 100%;
+}
+.instaBtn
+{
+    border: 1px solid black;
+    width: 180px;
+    height: 35px;
+    background: transparent;
+}
+
+
+
+
+
+
+
