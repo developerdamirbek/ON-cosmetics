@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { MainLayout } from "./layout/main-layout";
 import { nanoid } from "nanoid";
-import { Inner } from "./pages/inner";
+// import { Inner } from "./pages/inner";
 import { main_pages } from "./router/main-router";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
               element={route.component}
             />
           ))}
-        <Route path={`products`} element={<Inner />} />
+        {/* <Route path={`products`} element={<Inner />} /> */}
         </Route>
       </Routes>
     </>
