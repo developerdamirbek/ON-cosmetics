@@ -1,0 +1,115 @@
+.img{
+    background-image: url("../../assets/img/contac_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.touch{
+    display: flex;
+    gap: 80px;
+    margin-top: 60px;
+   margin-left: 100px;
+}
+.title{
+    padding-top: 20px;
+}
+.title p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.title h4{
+    padding-bottom: 5px;
+}
+
+.title h6{
+    padding-bottom: 20px;
+}
+.btn{
+    background-color: white;
+    padding: 10px 22px 10px 23px;
+    border: 1px solid black;
+    // padding-top: 10px;
+}
+.Come{
+    background: #FCF3F6;
+    padding-top: 5px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.come{
+    display: flex;
+    gap: 80px;
+    margin-top: 60px;
+    margin-left: 100px;
+   
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.visit h1{
+    font-size: 28px;
+    
+}
+.visit p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.visit span{
+    color: #00F;
+    padding-bottom: 10px;
+}
+.visit h3{
+    padding-bottom: 5px;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.Drop{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.Drop h1,p{
+ text-align: center;
+}
+input{
+    width: 225px;
+     height: 36px;
+     padding-left: 10px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+.inputs{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 100px;
+    // justify-content: center;
+    gap: 60px;
+    // justify-content: space-between;
+}
+.input_subject{
+    width: 795px;
+    height: 36px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.input_btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    margin-left: 943px;
+    margin-top: 20px;
+
+}
+.input_messange{
+    margin-top: 10px;
+    width: 795px;
+    height: 144px;
+    margin-left: 100px;
+}
