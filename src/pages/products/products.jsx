@@ -4,7 +4,6 @@ import styleProduct from "./products.module.scss";
 import { ProductLeft } from "./components/product-left/product-left";
 import { ProductRight } from "./components/product-right/product-right";
 import { data } from "../../data/product-data";
-// import arrowImg from '../../assets/icon/toMessage-icon'
 
 export const Products = () => {
   return (
@@ -68,3 +67,10 @@ export const Products = () => {
     </>
   );
 };
+import React from 'react'
+
+export const Products = () => {
+  return (
+    <div>products</div>
+  )
+}
