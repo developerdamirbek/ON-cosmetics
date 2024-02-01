@@ -1,0 +1,107 @@
+.product__container{
+    // width: 100%;
+    height: 2680px;
+}
+
+.product__header{
+    // width: 100%;
+    height: 500px;
+    // border: 1px solid yellow;
+        .header__product__img{
+            width: 100%;
+            height: 100%;
+        }
+        .carefully__text{
+            // width: 638px;
+            // height: 36px;
+            top: 200px;
+            left: 262px;
+            position: absolute;
+        }
+        .out__pText{
+            // width: 500px;
+            // height: 39px;
+            top: 266px;
+            left: 265px;
+            position:absolute;
+        }
+}
+
+.product__card_container{
+    width: 87%;
+    height: 1800px;
+    // border: 1px solid green;
+    margin-left: 7%;
+    margin-top: 5%;
+    display: flex;
+        .product__card__left{
+            width: 20%;
+            // height: 100%;
+            // border: 1px solid hotpink;
+        }
+        .product__card__right{
+            // width: 80%;
+            // height: 100%;
+            // border: 1px solid hotpink;
+                .card__div{
+                    // width: 100%;
+                    // height: 1685px;
+                    padding: 0 60px;
+                    // border: 1px solid green;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 30px;
+                        .product__card__divs{
+                            width: 270px;
+                            height: 380px;
+                            // border: 3px solid black;
+                            background: #fff;
+                            box-shadow: 0 0 2px 2px #eeeaea;
+                            justify-content: space-between;
+                            border-radius: 5px;
+                            .cards__img{
+                                width: 100%;
+                                height: 300px;
+                            }
+                            .cards__text{
+                                font-size: 20px;
+                                margin-top: 10px;
+                                margin-left: 30px;
+                            }
+                            .card__p__text{
+                                font-size: 16px;
+                                margin-top: 10px;
+                                margin-left: 80px;
+                            }
+                        }
+                }
+                .footer__btn{
+                    // width: 100%;
+                    height: 170px;
+                    // border: 1px solid red;
+                        .btn__footer{
+                            width: 500px;
+                            height: 70px;
+                            // border: 2px solid red;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-left: 280px;
+                            margin-top: 32px;
+                                .product__btn{
+                                    width: 30px;
+                                    height: 30px;
+                                    border: 1px solid lightgray;
+                                    background: #f5f3f3;
+                                    align-items: center;
+                                    justify-content: center;
+                                    text-align: center;
+                                    justify-items: center;
+                                    margin-left: 10px; 
+                                }
+                        }
+                }
+
+        }
+        
+}
